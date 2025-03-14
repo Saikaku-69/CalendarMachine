@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F15C4432C622A6100025109 /* Sample01View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F15C4422C622A6100025109 /* Sample01View.swift */; };
+		7F15C4452C62301E00025109 /* Test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F15C4442C62301E00025109 /* Test2.swift */; };
 		7F7F2B232C5D2166001DC25E /* Ex_CalendarAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F2B222C5D2166001DC25E /* Ex_CalendarAppApp.swift */; };
 		7F7F2B252C5D2166001DC25E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F2B242C5D2166001DC25E /* ContentView.swift */; };
 		7F7F2B272C5D216E001DC25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7F2B262C5D216E001DC25E /* Assets.xcassets */; };
 		7F7F2B2A2C5D216E001DC25E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7F2B292C5D216E001DC25E /* Preview Assets.xcassets */; };
+		7F7F2B322C5D252A001DC25E /* SampleView01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F2B312C5D252A001DC25E /* SampleView01.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F15C4422C622A6100025109 /* Sample01View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample01View.swift; sourceTree = "<group>"; };
+		7F15C4442C62301E00025109 /* Test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2.swift; sourceTree = "<group>"; };
 		7F7F2B1F2C5D2166001DC25E /* Ex_CalendarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex_CalendarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F7F2B222C5D2166001DC25E /* Ex_CalendarAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex_CalendarAppApp.swift; sourceTree = "<group>"; };
 		7F7F2B242C5D2166001DC25E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7F7F2B262C5D216E001DC25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F7F2B292C5D216E001DC25E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F7F2B312C5D252A001DC25E /* SampleView01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView01.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F15C4412C622A3A00025109 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				7F15C4422C622A6100025109 /* Sample01View.swift */,
+				7F15C4442C62301E00025109 /* Test2.swift */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
 		7F7F2B162C5D2166001DC25E = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +66,8 @@
 		7F7F2B212C5D2166001DC25E /* Ex_CalendarApp */ = {
 			isa = PBXGroup;
 			children = (
+				7F15C4412C622A3A00025109 /* Sample */,
+				7F7F2B302C5D2519001DC25E /* calendarSample01 */,
 				7F7F2B222C5D2166001DC25E /* Ex_CalendarAppApp.swift */,
 				7F7F2B242C5D2166001DC25E /* ContentView.swift */,
 				7F7F2B262C5D216E001DC25E /* Assets.xcassets */,
@@ -65,6 +82,14 @@
 				7F7F2B292C5D216E001DC25E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F7F2B302C5D2519001DC25E /* calendarSample01 */ = {
+			isa = PBXGroup;
+			children = (
+				7F7F2B312C5D252A001DC25E /* SampleView01.swift */,
+			);
+			path = calendarSample01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7F2B322C5D252A001DC25E /* SampleView01.swift in Sources */,
 				7F7F2B252C5D2166001DC25E /* ContentView.swift in Sources */,
 				7F7F2B232C5D2166001DC25E /* Ex_CalendarAppApp.swift in Sources */,
+				7F15C4452C62301E00025109 /* Test2.swift in Sources */,
+				7F15C4432C622A6100025109 /* Sample01View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
